@@ -1,0 +1,30 @@
+#logo {
+	width: 45%;
+	height: auto;
+	margin: 15% auto auto auto;
+}
+
+#logo img {
+	width: 45%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+#search-div {
+	width: 45%;
+	height: auto;
+	margin:  20px auto auto auto;
+}
+
+#search {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#textfield {
+	width: 550px;
+	height: 23px;
+	border: blue solid 1px;
+}
