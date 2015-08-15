@@ -5,14 +5,42 @@
 </head>
 
 <body>
+
+	<div id="top-menu">
+		<ul>
+			<li id="sign-in" class="top-right">Sign In</li>
+			<li class="top-right"><img id="square-thing" src="tiny-grid.png"></li>
+			<li class="top-right">Images</li>
+			<li class="top-right">Gmail</li>
+		</ul>
+	</div>
+
 	<div id="logo"><img src="https://www.google.com/images/srpr/logo11w.png"></div>
 	
 
 	<div id="search-div">
 		<form id="search" action="search-results.php">
-			<center><input id="textfield" type="text" name="search-terms"></center><br>
-			<center><input type="submit" value="Google Search">
-			<input type="submit" value="I'm Feeling Lucky"></center>
+			<center>
+				<input id="textfield" type="text" name="search-terms">
+			</center><br>
+			<center>
+				<input class="search-button" type="submit" value="Google Search">
+				<input class="search-button" type="submit" value="I'm Feeling Lucky">
+			</center>
 		</form>
+	</div>
+
+
+	<div id="bottom-menu">
+		<ul>
+			<li class="bottom-left">Advertising</li>
+			<li class="bottom-left">Business</li>
+			<li class="bottom-left">About</li>
+		</ul>
+		<ul>
+			<li class="bottom-right">Settings</li>
+			<li class="bottom-right">Terms</li>
+			<li class="bottom-right">Privacy</li>
+		</ul>
 	</div>
 </body>
